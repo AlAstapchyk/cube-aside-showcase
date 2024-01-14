@@ -1,7 +1,7 @@
 # Cube Aside
 <p align="center">
-  <img src="https://github.com/AlAstapchyk/CubeAside/assets/104316850/95855488-9f2a-4014-ac29-5bc93630970c" alt="Icon" height="200">
-  <img src="https://github.com/AlAstapchyk/CubeAside/assets/104316850/0c016a15-3ce3-4f41-a612-1ec94c4b8c40" alt="GPG header" height="200">
+  <img src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/f37246d8-a4d8-40d9-a319-bb4388405353" alt="Icon" height="200">
+  <img src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/40236b2b-9dd9-40de-9530-121f4d9d5bbd" alt="GPG header" height="200">
 </p>
 
 ### About Game
@@ -9,12 +9,16 @@ The main idea of the game is to overcome the distance and avoid obstacles. To co
 
 The game developed by [Aliaksandr Astapchyk](https://github.com/AlAstapchyk), published on Google Play in April 2022 and removed in October 2023.
 
-#### Loading
+### Loading
+The cube does a roll for every 10% of the load.
+
 <p align="center">
   <img alt="Game loading gif" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/9e6c7c2f-4fb5-481a-8e35-5833b3e7176e"/>
 </p>
 
-#### Main Menu
+### Main menu
+If the endless mode record is >50, displayed a text label with the record. Otherwise, shown "Tap to Play!". Start the game in endless mode by tapping any free area on the screen. In the main menu, navigate to the following sections:
+
 - **Skins**: Choose cube, scope, ground, and colors for them and the background. Also, check how to unlock a particular skin.
 <p align="center">
   <img width="720" alt="Skins 1" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/371f4403-0951-47ae-82c8-5b450fd7dc76">
@@ -42,26 +46,42 @@ The game developed by [Aliaksandr Astapchyk](https://github.com/AlAstapchyk), pu
   <img width="720" alt="Settings" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/afa4df18-0193-49b0-9074-6d615e024715">
 </p>
 
-#### Services
+### Game modes
+- **Endless**: Continuous speed increasing on an ease-out graph with the generation of random diamonds and obstacles including multi-tiered ones. After death, the player can pay diamonds or watch ads at the first death to continue.
+<div align="center">
+  <img width="720" alt="Revival window" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/1b7f6efa-5a44-412d-ae04-6ac93dcee9fb">
+  <div align="center"><em>The revival window after the first death</em></div>
+</div><br>
+
+- **Levels**: 10 Levels with 3 level diamonds on each. Each level is faster and longer than the previous one. A speed booster appears from the fifth level. For the first level completion additional diamonds are given based on which level it is in order.
+<div align="center">
+  <img width="720" alt="Completed level window" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/1b4e767c-f44a-4c5f-8136-e48399af7046">
+  <div align="center"><em>Completed level window</em></div>
+</div><br>
+
+### Services
 - GPGS for leaderboard
 - AdMob and Unity Ads for advertisement
 - Unity IAP for in-app purchases
 
-#### Saving method
+### Saving method
 Data saving in JSON with simple UTF-8 encryption.
-<p align="center">
+<div align="center">
   <img width="651" alt="Settings data" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/88863179-83b3-449e-b7cf-ef0ac7c642d1">
-  <p align="center"><i>Settings data</i></p>
+  <div align="center"><em>Settings data</em></div>
+</div>
+    <br>
+<div align="center">
   <img width="1097" alt="Player data" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/aa5d4127-d46f-46c6-9bad-9571e4dae1d7">
-  <p align="center"><i>Player data</i></p>
-</p>
+  <div align="center"><em>Player data</em></div>
+</div>
 
-#### Resources
+### Resources
 - Skins created using MagicaVoxel
 - Sounds downloaded from [freesound.org](https://freesound.org/) and modified afterwards
 
-#### Optimization
-- LeanTween as an animation engine. Unlike DOTween LeanTween has a built-in rotateAround function
+### Optimization
+- LeanTween as an animation engine
 - Skins optimized using Mesh Combiner asset
 - Baked light for static objects such as ground skins or obstacles
 - TMP instead of embeded text labels
@@ -69,15 +89,33 @@ Data saving in JSON with simple UTF-8 encryption.
 
 <br>
 <p align="center">
-  <img width="503.8" alt="square-screen 1" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/cdf5400b-a845-40a9-97ff-9ca4c7f10391">
-  <img width="503.8" alt="square-screen 2" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/c9f432fe-d16e-4f2e-bcca-e19d6590b384">
+  <img width="503.8" alt="Square screen 1" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/cdf5400b-a845-40a9-97ff-9ca4c7f10391">
+  <img width="503.8" alt="Square screen 2" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/c9f432fe-d16e-4f2e-bcca-e19d6590b384">
   <img width="1112" alt="Iphone 12 Pro Max screen" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/0c460204-ca86-4604-aa13-58cf5acef7cb">
 </p>
 
-### Screenshots from Google Play
+### Other
+- **Jump with random spin**: Cube jumps up and randomly spins in the air rotating on 1 or 2 random axes making 1 or 2 turns clockwise or counterclockwise. There is a chance to see a jump with no turns at all. This mechanic is used when selecting a skin, starting the game, and reviving after death.
 
-![screenshot-1](https://github.com/AlAstapchyk/CubeAside/assets/104316850/3591ce71-0bf5-4968-810d-8a50b97d18b2)
-![screenshot-2](https://github.com/AlAstapchyk/CubeAside/assets/104316850/d25be60f-5b2b-47e7-b8e9-23bd80913ecd)
-![screenshot-3](https://github.com/AlAstapchyk/CubeAside/assets/104316850/7111db53-4bc8-4ba7-ba98-1b677eafc89a)
-![screenshot-4](https://github.com/AlAstapchyk/CubeAside/assets/104316850/d2b97c58-8162-4cee-8353-576859507ec7)
-![screenshot-5](https://github.com/AlAstapchyk/CubeAside/assets/104316850/f1a5a6f4-34dd-48d5-99f4-c1db4d178c86)
+<p align="center">
+  <img alt="Game starting gif" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/c645e165-4a58-4cab-8f3e-1e54d534e72e">
+</p>
+
+- **Game menu**: If it is a level mode, the label with the level number is displayed, if it is not - "Random obstacles". Button to the main menu, continue, replay and SFX volume controller.
+
+<p align="center">
+  <img width="720" alt="Menu in level 9" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/763f7d29-eadd-47ff-b3ee-86861b16d9a6">
+</p>
+
+- **Spatial assistance**: The lane highlighting, aim and the pole are very useful for determining the position of the cube in space.
+
+<p align="center">
+  <img width="264" alt="Space assistance" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/21c2d32a-cb6c-4ccf-9898-4e41963ff6ac">
+</p>
+
+### Screenshots from Google Play
+![screenshot-1](https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/ce9e7221-a894-4bf2-b45d-dc84a4edc245)
+![screenshot-2](https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/a6cf7e79-a556-4813-b34a-6ed247f35e5e)
+![screenshot-3](https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/30518489-f7cf-42df-abd1-2dfd006e7ec6)
+![screenshot-4](https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/02a4f796-3a19-4f77-9bb4-fedc8b5565a5)
+![screenshot-5](https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/04ff53dc-a167-413e-a05e-f6f3d0106efa)
