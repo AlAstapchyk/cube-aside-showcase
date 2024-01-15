@@ -65,7 +65,7 @@ If the endless mode record is >50, displayed a text label with the record. Other
 - Unity IAP for in-app purchases
 
 ### Saving method
-Data saving in JSON with simple UTF-8 encryption.
+Data saving in JSON with UTF-8 encryption.
 <div align="center">
   <img width="651" alt="Settings data" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/88863179-83b3-449e-b7cf-ef0ac7c642d1">
   <div align="center"><em>Settings data</em></div>
@@ -75,10 +75,6 @@ Data saving in JSON with simple UTF-8 encryption.
   <img width="1097" alt="Player data" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/aa5d4127-d46f-46c6-9bad-9571e4dae1d7">
   <div align="center"><em>Player data</em></div>
 </div>
-
-### Resources
-- Skins created using MagicaVoxel
-- Sounds downloaded from [freesound.org](https://freesound.org/) and modified afterwards
 
 ### Optimization
 - LeanTween as an animation engine
@@ -107,7 +103,7 @@ Data saving in JSON with simple UTF-8 encryption.
   <img width="720" alt="Menu in level 9" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/763f7d29-eadd-47ff-b3ee-86861b16d9a6">
 </p>
 
-- **Spatial assistance**: The lane highlighting, aim and the pole are very useful for determining the position of the cube in space.
+- **Spatial assistance**: The lane highlighting, aim and the pole for determining the position of the cube in space.
 
 <p align="center">
   <img width="264" alt="Space assistance" src="https://github.com/AlAstapchyk/cube-aside-showcase/assets/104316850/21c2d32a-cb6c-4ccf-9898-4e41963ff6ac">
