@@ -9,6 +9,8 @@ The main idea of the game is to overcome the distance and avoid obstacles. To co
 
 The game developed by [Aliaksandr Astapchyk](https://github.com/AlAstapchyk), published on Google Play in April 2022 and removed in October 2023.
 
+Video demonstration of the game: https://youtu.be/K5aCBnfW97g
+
 ### Loading
 The cube does a roll for every 10% of the load.
 
